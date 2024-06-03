@@ -1,4 +1,4 @@
-package mySqlConnection;
+package sqlQuiz;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -98,4 +98,5 @@ public class Main {
 		quiz.startQuiz();
 
 	}
+
 }

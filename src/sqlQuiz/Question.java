@@ -1,4 +1,4 @@
-package mySqlConnection;
+package sqlQuiz;
 
 public class Question {
 

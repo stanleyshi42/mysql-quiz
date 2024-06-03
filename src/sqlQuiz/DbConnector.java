@@ -1,4 +1,4 @@
-package mySqlConnection;
+package sqlQuiz;
 
 import java.sql.*;
 import java.util.ArrayList;
