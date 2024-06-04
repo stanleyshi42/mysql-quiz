@@ -49,6 +49,7 @@ public class DbConnector {
 
 		} catch (SQLException e) {
 			e.printStackTrace();
+			System.exit(0);
 		}
 
 		return questions;
