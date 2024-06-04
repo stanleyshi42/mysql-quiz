@@ -45,8 +45,6 @@ public class DbConnector {
 				questions.add(new Question(id, diff, text, answer));
 			}
 
-			connection.close();
-
 		} catch (SQLException e) {
 			e.printStackTrace();
 			System.exit(0);
@@ -69,7 +67,6 @@ public class DbConnector {
 			statement.setInt(2, score);
 			statement.executeUpdate();
 
-			connection.close();
 			return true;
 
 		} catch (SQLException e) {
@@ -99,8 +96,6 @@ public class DbConnector {
 
 				scores.add(new Score(id, name, value));
 			}
-
-			connection.close();
 
 		} catch (SQLException e) {
 			e.printStackTrace();

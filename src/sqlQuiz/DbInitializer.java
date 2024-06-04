@@ -100,11 +100,6 @@ public class DbInitializer {
 			preparedStatement.setString(3, "SELECT column1 FROM table_name ORDER BY column1 ASC;");
 			preparedStatement.executeUpdate();
 
-			// Close resources
-			connection.close();
-			statement.close();
-			preparedStatement.close();
-
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
@@ -131,10 +126,6 @@ public class DbInitializer {
 					)
 					""";
 			statement.execute(query);
-
-			// Close resources
-			connection.close();
-			statement.close();
 
 		} catch (SQLException e) {
 			e.printStackTrace();
