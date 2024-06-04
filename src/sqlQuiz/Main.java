@@ -5,6 +5,9 @@ import java.util.Collections;
 import java.util.Random;
 import java.util.Scanner;
 
+import model.Question;
+import model.Score;
+
 public class Main {
 
 	ArrayList<Question> questions;

@@ -1,4 +1,4 @@
-package sqlQuiz;
+package model;
 
 public class Question {
 

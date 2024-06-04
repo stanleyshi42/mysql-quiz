@@ -3,6 +3,9 @@ package sqlQuiz;
 import java.sql.*;
 import java.util.ArrayList;
 
+import model.Question;
+import model.Score;
+
 public class DbConnector {
 
 	final static String url = "jdbc:mysql://localhost:3306/sql_quiz";
